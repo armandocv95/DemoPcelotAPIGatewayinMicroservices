@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  authenticationapi:
+    build:
+      context: .
+      dockerfile: AuthenticationApi/Dockerfile
+    ports:
+      - "5001:80"
+    depends_on:
+      - sharedlibrary
+
+  gateway:
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+    ports:
+      - "5002:80"
+    depends_on:
+      - authenticationapi
+
+  identity:
+    build:
+      context: .
+      dockerfile: Identity/Dockerfile
+    ports:
+      - "5003:80"
+    depends_on:
+      - gateway
+
+  webapiandreact:
+    build:
+      context: .
+      dockerfile: WebAPIAndReact/Dockerfile
+    ports:
+      - "5004:80"
+    depends_on:
+      - identity
+
+  sharedlibrary:
+    build:
+      context: .
+      dockerfile: SharedLibrary/Dockerfile
+    # No se expone a puertos porque es una librería compartida
+
+networks:
+  default:
+    driver: bridge

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08AE1C24-4A07-04A6-BC94-0F5E2E2FE434}|WebAPIAndReact\\WebAPIAndReact.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\webapiandreact\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{08AE1C24-4A07-04A6-BC94-0F5E2E2FE434}|WebAPIAndReact\\WebAPIAndReact.csproj|solutionrelative:webapiandreact\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\identity\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|solutionrelative:identity\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,15 +106,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\WebAPIAndReact\\Dockerfile",
+              "RelativeDocumentMoniker": "WebAPIAndReact\\Dockerfile",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\WebAPIAndReact\\Dockerfile",
+              "RelativeToolTip": "WebAPIAndReact\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-16T17:06:53.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Dockerfile",
+              "RelativeDocumentMoniker": "Gateway\\Dockerfile",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Dockerfile",
+              "RelativeToolTip": "Gateway\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-16T17:06:34.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Dockerfile",
+              "RelativeDocumentMoniker": "Identity\\Dockerfile",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Dockerfile",
+              "RelativeToolTip": "Identity\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-16T17:06:08.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Dockerfile",
+              "RelativeDocumentMoniker": "AuthenticationApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Dockerfile",
+              "RelativeToolTip": "AuthenticationApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-16T17:05:09.84Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "AuthenticationApi\\WeatherForecast.cs",
@@ -110,20 +178,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Program.cs",
               "RelativeDocumentMoniker": "AuthenticationApi\\Program.cs",
               "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Program.cs",
               "RelativeToolTip": "AuthenticationApi\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T22:20:01.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Program.cs",
               "RelativeDocumentMoniker": "Gateway\\Program.cs",
@@ -135,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Identity\\Controllers\\UserController.cs",
@@ -147,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
@@ -159,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
@@ -171,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ocelot.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\ocelot.json",
               "RelativeDocumentMoniker": "Gateway\\ocelot.json",
@@ -183,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AuthenticationApi\\Properties\\launchSettings.json",
@@ -195,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "TokenCheckerMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
               "RelativeDocumentMoniker": "Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
@@ -207,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "AuthenticationApi\\Controllers\\AccountController.cs",
@@ -219,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\appsettings.json",
               "RelativeDocumentMoniker": "Gateway\\appsettings.json",
@@ -231,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "InterceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\InterceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Gateway\\Middlewares\\InterceptionMiddleware.cs",
@@ -243,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "RestrictAccesMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\SharedLibrary\\RestrictAccesMiddleware.cs",
               "RelativeDocumentMoniker": "SharedLibrary\\RestrictAccesMiddleware.cs",
@@ -255,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Program.cs",
               "RelativeDocumentMoniker": "Identity\\Program.cs",
@@ -267,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\appsettings.json",
               "RelativeDocumentMoniker": "AuthenticationApi\\appsettings.json",
@@ -279,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
               "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
@@ -291,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Gateway\\Properties\\launchSettings.json",
@@ -303,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Gateway",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Gateway.csproj",
               "RelativeDocumentMoniker": "Gateway\\Gateway.csproj",
@@ -314,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
@@ -326,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Identity\\Properties\\launchSettings.json",
@@ -338,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\appsettings.json",
               "RelativeDocumentMoniker": "Identity\\appsettings.json",
