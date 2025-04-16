@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\identity\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\middlewares\\tokencheckermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\middlewares\\tokencheckermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA305CC-0E51-4500-827D-81A0BCE75D2B}|SharedLibrary\\SharedLibrary.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\sharedlibrary\\restrictaccesmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA305CC-0E51-4500-827D-81A0BCE75D2B}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\restrictaccesmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\middlewares\\interceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\middlewares\\interceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|solutionrelative:identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD9B6A3D-7BDF-4FC0-ABA5-665858CCF692}|AuthenticationApi\\AuthenticationApi.csproj|solutionrelative:authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|solutionrelative:identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B330007-EBBC-4151-B9DF-75B7CABA9C81}|Identity\\Identity.csproj|solutionrelative:identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|c:\\users\\armando castillo\\source\\repos\\demopcelotapigatewayinmicroservices\\gateway\\gateway.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FE22CECC-728D-4658-8D30-0840B0D60B78}|Gateway\\Gateway.csproj|solutionrelative:gateway\\gateway.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AuthenticationApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\WeatherForecast.cs",
+              "RelativeToolTip": "AuthenticationApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:13:24.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Program.cs",
+              "RelativeDocumentMoniker": "AuthenticationApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Program.cs",
+              "RelativeToolTip": "AuthenticationApi\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:20:01.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway\\Program.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Program.cs",
+              "RelativeToolTip": "Gateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:52:39.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:42:18.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
+              "RelativeToolTip": "..\\WebAPIAndReact\\WebAPIAndReact\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:44:45.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "..\\WebAPIAndReact\\WebAPIAndReact\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:44:54.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\ocelot.json",
+              "RelativeDocumentMoniker": "Gateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\ocelot.json",
+              "RelativeToolTip": "Gateway\\ocelot.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T18:19:29.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthenticationApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthenticationApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T22:21:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenCheckerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
+              "RelativeDocumentMoniker": "Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
+              "RelativeToolTip": "Gateway\\Middlewares\\TokenCheckerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:57:13.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AuthenticationApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AuthenticationApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:39:31.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\appsettings.json",
+              "RelativeDocumentMoniker": "Gateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\appsettings.json",
+              "RelativeToolTip": "Gateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T05:40:41.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InterceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\InterceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Gateway\\Middlewares\\InterceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Middlewares\\InterceptionMiddleware.cs",
+              "RelativeToolTip": "Gateway\\Middlewares\\InterceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:32:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestrictAccesMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\SharedLibrary\\RestrictAccesMiddleware.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\RestrictAccesMiddleware.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\SharedLibrary\\RestrictAccesMiddleware.cs",
+              "RelativeToolTip": "SharedLibrary\\RestrictAccesMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:40:05.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Program.cs",
+              "RelativeDocumentMoniker": "Identity\\Program.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Program.cs",
+              "RelativeToolTip": "Identity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:55:20.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthenticationApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\AuthenticationApi\\appsettings.json",
+              "RelativeToolTip": "AuthenticationApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T22:26:24.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
+              "RelativeToolTip": "..\\WebAPIAndReact\\WebAPIAndReact\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:21:18.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T17:20:38.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Gateway",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Gateway.csproj",
+              "RelativeDocumentMoniker": "Gateway\\Gateway.csproj",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Gateway\\Gateway.csproj",
+              "RelativeToolTip": "Gateway\\Gateway.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T17:20:37.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\WebAPIAndReact\\WebAPIAndReact\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T17:19:56.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Identity\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Identity\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T17:09:40.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "Identity\\appsettings.json",
+              "ToolTip": "C:\\Users\\Armando Castillo\\source\\repos\\DemoPcelotAPIGatewayinMicroservices\\Identity\\appsettings.json",
+              "RelativeToolTip": "Identity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T17:09:13.857Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
