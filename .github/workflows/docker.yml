@@ -22,7 +22,7 @@ jobs:
       - name: Build & Push Image
         uses: docker/build-push-action@v5
         with:
-          context: ./AuthenticationApi
+          context: .
           file: ./AuthenticationApi/Dockerfile
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/authenticationapi:latest
@@ -43,7 +43,7 @@ jobs:
       - name: Build & Push Image
         uses: docker/build-push-action@v5
         with:
-          context: ./Gateway
+          context: .
           file: ./Gateway/Dockerfile
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/gateway:latest
@@ -64,7 +64,7 @@ jobs:
       - name: Build & Push Image
         uses: docker/build-push-action@v5
         with:
-          context: ./Identity
+          context: .
           file: ./Identity/Dockerfile
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/identity:latest
@@ -85,7 +85,7 @@ jobs:
       - name: Build & Push Image
         uses: docker/build-push-action@v5
         with:
-          context: ./WebAPIAndReact
+          context: .
           file: ./WebAPIAndReact/Dockerfile
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/webapiandreact:latest
