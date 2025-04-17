@@ -1,0 +1,48 @@
+name: Build and Push Docker Images
+
+on:
+  push:
+    paths:
+      - 'AuthenticationApi/**'
+      - 'Gateway/**'
+      - 'Identity/**'
+      - 'WebAPIAndReact/**'
+      - '.github/workflows/docker.yml'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        service:
+          - AuthenticationApi
+          - Gateway
+          - Identity
+          - WebAPIAndReact
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check if ${{ matrix.service }} changed
+        id: changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            changed:
+              - '${{ matrix.service }}/**'
+
+      - name: Log in to Azure Container Registry
+        if: steps.changes.outputs.changed == 'true'
+        uses: azure/docker-login@v1
+        with:
+          login-server: TU_ACR.azurecr.io
+          username: ${{ secrets.APIGatwayCICD }}
+          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+
+      - name: Build and Push Docker image for ${{ matrix.service }}
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          docker build -t TU_ACR.azurecr.io/${{ matrix.service | toLower }}:latest ./${{ matrix.service }}
+          docker push TU_ACR.azurecr.io/${{ matrix.service | toLower }}:latest

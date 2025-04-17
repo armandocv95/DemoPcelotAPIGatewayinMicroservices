@@ -37,3 +37,4 @@ C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Ident
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Identity\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Identity\bin\Debug\net9.0\SharedLibrary.dll
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Identity\bin\Debug\net9.0\SharedLibrary.pdb
+C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Identity\obj\Debug\net9.0\Identity.sourcelink.json

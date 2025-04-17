@@ -1,24 +1,24 @@
-# Usa una imagen base de .NET 9.0
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
-WORKDIR /app
-EXPOSE 80
-
-# Usa la imagen SDK para construir la aplicación
+# Usa la imagen SDK para compilar
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
+
+# Copiar los archivos de proyecto necesarios
 COPY ["Gateway/Gateway.csproj", "Gateway/"]
-COPY ["SharedLibrary/SharedLibrary.csproj", "SharedLibrary/"]  # Incluye SharedLibrary si es necesario
+COPY ["SharedLibrary/SharedLibrary.csproj", "SharedLibrary/"]
 
+# Restaura dependencias
 RUN dotnet restore "Gateway/Gateway.csproj"
-COPY . .
-WORKDIR "/src/Gateway"
-RUN dotnet build "Gateway.csproj" -c Release -o /app/build
 
-FROM build AS publish
+# Copia todo el código fuente
+COPY . .
+
+# Publica la app
+WORKDIR /src/Gateway
 RUN dotnet publish "Gateway.csproj" -c Release -o /app/publish
 
-# Finaliza el contenedor con la app publicada
-FROM base AS final
+# Usa la imagen runtime para correr la app
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
+
 ENTRYPOINT ["dotnet", "Gateway.dll"]

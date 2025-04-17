@@ -185,3 +185,4 @@ C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\WebAP
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\WebAPIAndReact\obj\Debug\net9.0\WebAPIAndReact.pdb
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\WebAPIAndReact\obj\Debug\net9.0\WebAPIAndReact.genruntimeconfig.cache
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\WebAPIAndReact\obj\Debug\net9.0\ref\WebAPIAndReact.dll
+C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\WebAPIAndReact\obj\Debug\net9.0\WebAPIAndReact.sourcelink.json

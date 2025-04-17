@@ -45,3 +45,4 @@ C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Authe
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\AuthenticationApi\obj\Debug\net9.0\ref\AuthenticationApi.dll
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\AuthenticationApi\bin\Debug\net9.0\SharedLibrary.dll
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\AuthenticationApi\bin\Debug\net9.0\SharedLibrary.pdb
+C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\AuthenticationApi\obj\Debug\net9.0\AuthenticationApi.sourcelink.json

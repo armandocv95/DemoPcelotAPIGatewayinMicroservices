@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   authenticationapi:
     build:
@@ -7,8 +5,6 @@ services:
       dockerfile: AuthenticationApi/Dockerfile
     ports:
       - "5001:80"
-    depends_on:
-      - sharedlibrary
 
   gateway:
     build:
@@ -36,12 +32,6 @@ services:
       - "5004:80"
     depends_on:
       - identity
-
-  sharedlibrary:
-    build:
-      context: .
-      dockerfile: SharedLibrary/Dockerfile
-    # No se expone a puertos porque es una librería compartida
 
 networks:
   default:

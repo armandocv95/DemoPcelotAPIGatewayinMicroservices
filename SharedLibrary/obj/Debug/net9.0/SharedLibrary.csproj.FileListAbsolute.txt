@@ -10,3 +10,4 @@ C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\Share
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\SharedLibrary\obj\Debug\net9.0\refint\SharedLibrary.dll
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\SharedLibrary\obj\Debug\net9.0\SharedLibrary.pdb
 C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\SharedLibrary\obj\Debug\net9.0\ref\SharedLibrary.dll
+C:\Users\Armando Castillo\source\repos\DemoPcelotAPIGatewayinMicroservices\SharedLibrary\obj\Debug\net9.0\SharedLibrary.sourcelink.json
