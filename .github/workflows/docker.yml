@@ -37,12 +37,12 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         uses: azure/docker-login@v1
         with:
-          login-server: TU_ACR.azurecr.io
+          login-server: apigatwaycicd.azurecr.io
           username: ${{ secrets.APIGatwayCICD }}
           password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
 
       - name: Build and Push Docker image for ${{ matrix.service }}
         if: steps.changes.outputs.changed == 'true'
         run: |
-          docker build -t TU_ACR.azurecr.io/${{ matrix.service | toLower }}:latest ./${{ matrix.service }}
-          docker push TU_ACR.azurecr.io/${{ matrix.service | toLower }}:latest
+          docker build -t apigatwaycicd.azurecr.io/${{ matrix.service | toLower }}:latest ./${{ matrix.service }}
+          docker push apigatwaycicd.azurecr.io/${{ matrix.service | toLower }}:latest
