@@ -2,47 +2,90 @@ name: Build and Push Docker Images
 
 on:
   push:
-    paths:
-      - 'AuthenticationApi/**'
-      - 'Gateway/**'
-      - 'Identity/**'
-      - 'WebAPIAndReact/**'
-      - '.github/workflows/docker.yml'
+    branches:
+      - main
 
 jobs:
-  build-and-push:
+  build-authentication:
+    name: Build & Push - AuthenticationApi
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        service:
-          - AuthenticationApi
-          - Gateway
-          - Identity
-          - WebAPIAndReact
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Check if ${{ matrix.service }} changed
-        id: changes
-        uses: dorny/paths-filter@v3
+      - name: Login to ACR
+        uses: docker/login-action@v2
         with:
-          filters: |
-            changed:
-              - '${{ matrix.service }}/**'
-
-      - name: Log in to Azure Container Registry
-        if: steps.changes.outputs.changed == 'true'
-        uses: azure/docker-login@v1
-        with:
-          login-server: apigatwaycicd.azurecr.io
+          registry: apigatwaycicd.azurecr.io
           username: ${{ secrets.APIGatwayCICD }}
           password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
 
-      - name: Build and Push Docker image for ${{ matrix.service }}
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          docker build -t apigatwaycicd.azurecr.io/${{ matrix.service | toLower }}:latest ./${{ matrix.service }}
-          docker push apigatwaycicd.azurecr.io/${{ matrix.service | toLower }}:latest
+      - name: Build & Push Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./AuthenticationApi
+          file: ./AuthenticationApi/Dockerfile
+          push: true
+          tags: apigatwaycicd.azurecr.io/authenticationapi:latest
+
+  build-gateway:
+    name: Build & Push - Gateway
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to ACR
+        uses: docker/login-action@v2
+        with:
+          registry: apigatwaycicd.azurecr.io
+          username: ${{ secrets.APIGatwayCICD }}
+          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+
+      - name: Build & Push Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Gateway
+          file: ./Gateway/Dockerfile
+          push: true
+          tags: apigatwaycicd.azurecr.io/gateway:latest
+
+  build-identity:
+    name: Build & Push - Identity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to ACR
+        uses: docker/login-action@v2
+        with:
+          registry: apigatwaycicd.azurecr.io
+          username: ${{ secrets.APIGatwayCICD }}
+          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+
+      - name: Build & Push Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Identity
+          file: ./Identity/Dockerfile
+          push: true
+          tags: apigatwaycicd.azurecr.io/identity:latest
+
+  build-webapiandreact:
+    name: Build & Push - WebAPIAndReact
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to ACR
+        uses: docker/login-action@v2
+        with:
+          registry: apigatwaycicd.azurecr.io
+          username: ${{ secrets.APIGatwayCICD }}
+          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+
+      - name: Build & Push Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./WebAPIAndReact
+          file: ./WebAPIAndReact/Dockerfile
+          push: true
+          tags: apigatwaycicd.azurecr.io/webapiandreact:latest
