@@ -15,9 +15,9 @@ jobs:
       - name: Login to ACR
         uses: docker/login-action@v2
         with:
-          registry: apigatwaycicd.azurecr.io
-          username: ${{ secrets.APIGatwayCICD }}
-          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+          registry: ${{ secrets.ACR_LOGIN_SERVER }} 
+          username: ${{ secrets.ACR_USERNAME  }}
+          password: ${{ secrets.ACR_PASSWORD  }}
 
       - name: Build & Push Image
         uses: docker/build-push-action@v5
@@ -25,7 +25,7 @@ jobs:
           context: ./AuthenticationApi
           file: ./AuthenticationApi/Dockerfile
           push: true
-          tags: apigatwaycicd.azurecr.io/authenticationapi:latest
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/authenticationapi:latest
 
   build-gateway:
     name: Build & Push - Gateway
@@ -36,9 +36,9 @@ jobs:
       - name: Login to ACR
         uses: docker/login-action@v2
         with:
-          registry: apigatwaycicd.azurecr.io
-          username: ${{ secrets.APIGatwayCICD }}
-          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+          registry: ${{ secrets.ACR_LOGIN_SERVER }} 
+          username: ${{ secrets.ACR_USERNAME  }}
+          password: ${{ secrets.ACR_PASSWORD  }}
 
       - name: Build & Push Image
         uses: docker/build-push-action@v5
@@ -46,7 +46,7 @@ jobs:
           context: ./Gateway
           file: ./Gateway/Dockerfile
           push: true
-          tags: apigatwaycicd.azurecr.io/gateway:latest
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/gateway:latest
 
   build-identity:
     name: Build & Push - Identity
@@ -57,9 +57,9 @@ jobs:
       - name: Login to ACR
         uses: docker/login-action@v2
         with:
-          registry: apigatwaycicd.azurecr.io
-          username: ${{ secrets.APIGatwayCICD }}
-          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+          registry: ${{ secrets.ACR_LOGIN_SERVER }} 
+          username: ${{ secrets.ACR_USERNAME  }}
+          password: ${{ secrets.ACR_PASSWORD  }}
 
       - name: Build & Push Image
         uses: docker/build-push-action@v5
@@ -67,7 +67,7 @@ jobs:
           context: ./Identity
           file: ./Identity/Dockerfile
           push: true
-          tags: apigatwaycicd.azurecr.io/identity:latest
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/identity:latest
 
   build-webapiandreact:
     name: Build & Push - WebAPIAndReact
@@ -78,9 +78,9 @@ jobs:
       - name: Login to ACR
         uses: docker/login-action@v2
         with:
-          registry: apigatwaycicd.azurecr.io
-          username: ${{ secrets.APIGatwayCICD }}
-          password: ${{ secrets.GEInDtE4XHYjR5lDVd6DEurepMYGHB5OZA+wcJFtCs+ACRDYeDvb }}
+          registry: ${{ secrets.ACR_LOGIN_SERVER }} 
+          username: ${{ secrets.ACR_USERNAME  }}
+          password: ${{ secrets.ACR_PASSWORD  }}
 
       - name: Build & Push Image
         uses: docker/build-push-action@v5
@@ -88,4 +88,4 @@ jobs:
           context: ./WebAPIAndReact
           file: ./WebAPIAndReact/Dockerfile
           push: true
-          tags: apigatwaycicd.azurecr.io/webapiandreact:latest
+          tags: ${{ secrets.ACR_LOGIN_SERVER }}/webapiandreact:latest

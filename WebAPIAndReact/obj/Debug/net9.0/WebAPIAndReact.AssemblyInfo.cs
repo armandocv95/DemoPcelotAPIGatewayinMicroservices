@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPIAndReact")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9918e46349f5f8b8c3bd65e09e4a3f68bb1b6bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f654f0ebdd943f8f81ad1f6853e66b1021cc8b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPIAndReact")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPIAndReact")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
